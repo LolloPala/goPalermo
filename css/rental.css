@@ -1,0 +1,66 @@
+*{ margin: 0;
+    padding: 0;}
+
+.rentalBody{
+    background: #0097B2;
+    background: linear-gradient(90deg, rgba(0, 151, 178, 1) 0%, rgba(18, 71, 71, 1) 100%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.cooler-a{
+    color: #ffffff;
+    padding-top: 2px;
+    text-decoration: underline;
+    
+}
+.cooler-a:hover{
+    color: #e3e3e3;
+}
+    
+.rentalContainer{
+    background-color: #0097b2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    padding: 15px;
+
+    
+}
+.rentalH1{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white
+}
+
+.rentalH2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #ffdf2b;
+}
+
+.rentalParent{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    background-color: #0097b2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    row-gap: 20px;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #124747;
+    color: white;
+    height: 450px;
+    width: 300px;
+
+}

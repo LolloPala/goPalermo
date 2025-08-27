@@ -1,0 +1,152 @@
+/*
+cold
+0097B2
+124747
+hot
+7a2f00
+
+giallo
+ffdf2b
+*/
+
+.infoBody{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.infoBackground1{
+    background-color: #0097B2;
+    width: 100vw;
+    
+
+
+}
+.infoBackground2{
+    background-color: #124747;
+    width: 100vw;
+    
+
+
+}
+
+.vStack{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    column-gap: 30px;
+    
+}
+
+.vStackTop{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    row-gap: 20px;
+    column-gap: 30px;
+    
+}
+
+.oStack{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.oStackWrap{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+.boxBlue{
+    background-color: #124747;
+    width: min(400px, 90%);
+    height: 600px;
+    border-radius: 0.5%;
+/*
+    border: 2px;
+    border-style: solid;
+*/
+}
+
+.boxYellow{
+    background-color: #ffffff;
+    border-color: #ffdf2b;
+    border-style: solid;
+    border-width: 0.5vh;
+    
+    
+    width: min(300px, 70%);
+    height: 300px;
+   
+
+}
+
+
+.boxText1{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #ffdf2b;
+
+}
+
+.boxText2{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #ffdf2b;
+    text-shadow: 0 0 10px black;
+
+}
+
+.boxText3{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #7a2f00;
+    padding: 0.5rem;
+
+}
+
+.textClass1{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #ffdf2b;
+
+}
+.textClass1White{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #ffffff;
+
+}
+
+.textClass2{
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-shadow: 0 0 10px black;
+
+}
+.textClass2Lined{
+    text-decoration: line-through #ff0000;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-shadow: 0 0 10px black;
+
+}
+
+
+.textClass3{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #ffffff;
+    padding-left: 0.5rem;
+    padding-right: 0.5;
+
+}
